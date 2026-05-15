@@ -6,4 +6,4 @@ class Solution:
                 dp[i][j]=dp[i-1][j]+dp[i][j-1]
         return dp[m-1][n-1]
 s=Solution()
-print(s.shortestpath(3,7))            
+print(s.shortestpath(3,7))         
