@@ -13,5 +13,5 @@ class Solution:
 s=Solution()
 costs=[1,2,5]
 amount=11
-print(s.minimumcost(costs,amount))                
+print(s.minimumcost(costs,amount));                
             
