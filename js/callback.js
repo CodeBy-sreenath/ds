@@ -1,10 +1,11 @@
 function greet(name,callback)
 {
-    console.log("Hello" +name)
+    console.log("hello",name)
     callback()
+
 }
 function sayHello()
 {
-    console.log("good by")
+    console.log("good morning")
 }
-greet("sreenath",sayHello)
+greet("srrenath",sayHello)

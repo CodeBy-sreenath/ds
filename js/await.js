@@ -1,15 +1,16 @@
-function delay(){
+function delay()
+{
     return new Promise(resolve=>{
         setTimeout(()=>{
-            resolve("finished after three seconds")
-        },3000)
+            resolve("delayed for 2 seconds")
+        },2000)
     })
 }
 async function run()
 {
     console.log("start")
-    let resukt=await delay()
-    console.log(resukt)
+    let result=await delay()
+    console.log(result)
     console.log("end")
 }
 run()
