@@ -22,7 +22,7 @@ class Solution:
 s=Solution()
 beginWord = "hit"
 endWord = "cog"
-wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
+wordList = ["hot", "dot", "dog", "lot", "log", "cog"];
 print(s.wordladder(beginWord,endWord,wordList))                    
 
 
