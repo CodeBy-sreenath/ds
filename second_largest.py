@@ -11,4 +11,4 @@ class Solution:
         return second_greatest
 s=Solution()
 nums=[9,6,8,7,2]
-print(s.second_largest(nums))                
+print(s.second_largest(nums))  ;              
