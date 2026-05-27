@@ -12,6 +12,6 @@ class Solution:
                 nums[left],nums[right]=nums[right],nums[left]
                 swap+=1
         return swap
-s=Solution()
+s=Solution();
 nums=[2, 4, 1, 3, 6, 5]  
 print(s.summer(nums))             
