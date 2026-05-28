@@ -1,10 +1,10 @@
-function reverseString(s)
+function reverse(s)
 {
     let str=""
-    for(let i=s.length-1;i>=0;i--)
+    for(let ch of s)
     {
-        str+=s[i]
+        str=ch+str
     }
     return str
 }
-console.log(reverseString("sreenath"))
+console.log(reverse("sreenath"))
