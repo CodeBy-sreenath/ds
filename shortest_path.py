@@ -13,7 +13,7 @@ class Solution:
             for neighbor in graph[node]:
                 if dist[neighbor]==-1:
                     dist[neighbor]=dist[node]+1
-                    q.append(neighbor)
+                    q.append(neighbor);
         return dist            
 s=Solution()
 n = 6
