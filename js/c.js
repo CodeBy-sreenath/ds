@@ -1,10 +1,15 @@
-function greet(name,callback)
-{
-    console.log(name + " hai ")
-    callback()
+function sayHello(){
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            console.log("after 3 seconds")
+            resolve("completed")
+        },3000)
+    })
 }
-function sayGoodby()
-{
-    console.log("good by")
+async function hello(){
+    console.log("hai")
+    let result=await sayHello()
+    console.log(result)
+    console.log("sreenath")
 }
-greet("sreenath",sayGoodby)
+hello()
