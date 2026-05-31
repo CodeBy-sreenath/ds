@@ -10,4 +10,4 @@ class Solution:
                 result.append([start,end]);
         return result
 s=Solution()
-print(s.merge([[1,3],[2,6],[8,10],[15,18]]))                
+print(s.merge([[1,3],[2,6],[8,10],[15,18]]));              
