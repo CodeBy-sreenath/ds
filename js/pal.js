@@ -11,4 +11,6 @@ function palindrome(s)
     left+=1
     right-=1
    }
+   return true
 }
+console.log(palindrome("madam"))
