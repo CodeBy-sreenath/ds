@@ -9,4 +9,4 @@ class Maths
     }
 }
 const obj= new Maths()
-console.log(obj.add(1,2,3))
+console.log(obj.add(1,2,3));
