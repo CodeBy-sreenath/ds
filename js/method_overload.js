@@ -5,7 +5,7 @@ class Maths
     }
     add(a,b,c)
     {
-        return a+b+c
+        return a+b+c;
     }
 }
 const obj= new Maths()
