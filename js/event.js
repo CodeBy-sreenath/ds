@@ -1,5 +1,5 @@
 console.log("Start")
 setTimeout(()=>{
-    console.log("Hello")
+    console.log("Hello");
 },10000)
-console.log("End")
+console.log("End");
