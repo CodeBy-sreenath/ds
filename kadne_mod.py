@@ -13,7 +13,7 @@ class Solution:
                 max_sum=current_sum
                 start=temp_start
                 end=i
-        return max_sum,nums[start:end+1]
+        return max_sum,nums[start:end+1];
 s=Solution()    
 
 nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
