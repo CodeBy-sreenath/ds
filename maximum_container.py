@@ -6,7 +6,7 @@ class Solution:
         while left< right:
             width=right-left
             h=min(height[left],height[right])
-            area=width*h
+            area=width*h;
             max_area=max(max_area,area)
             if height[left]<height[right]:
                 left+=1
