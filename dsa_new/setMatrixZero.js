@@ -25,7 +25,7 @@ function setMatrix(matrix)
             }
         }
     }
-    return matrix
+    return matrix;
 }
 matrix = [
     [1,1,1],
